@@ -146,8 +146,7 @@ module.exports = function(grunt) {
     'jshint',
     'copy',
     'uglify',
-    'copy:uglified',
-    'karma'
+    'copy:uglified'
   ]);
 
   grunt.registerTask('bumps', function() {
