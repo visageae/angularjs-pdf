@@ -1,6 +1,6 @@
 {
   "name": "visage-angular-pdf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Angularjs directive <ng-pdf> to display full document PDF in the browser with PDFJS. Forked from http://github.com/sayanee/angularjs-pdf",
   "main": "./dist/angular-pdf.js",
   "license": "MIT",
