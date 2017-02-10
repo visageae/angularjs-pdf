@@ -6,8 +6,8 @@
   "license": "MIT",
   "homepage": "http://github.com/visageae/angularjs-pdf",
   "dependencies": {
-    "angular": "1.6.0",
-    "pdfjs-dist": "1.6.414"
+    "angular": "^1.6.0",
+    "pdfjs-dist": "^1.6.414"
   },
   "devDependencies": {
     "angular-mocks": "1.6.0"
