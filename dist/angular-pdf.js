@@ -24,6 +24,7 @@
       var ratio = backingScale(canvas);
       canvas.width = Math.floor(w * ratio);
       canvas.height = Math.floor(h * ratio);
+
       canvas.style.width = Math.floor(w) + 'px';
       canvas.style.height = Math.floor(h) + 'px';
       canvas.getContext('2d').setTransform(ratio, 0, 0, ratio, 0, 0);
@@ -87,7 +88,7 @@
               scale = pageWidthScale;
             }
             viewport = page.getViewport(scale);
-            var ctx = canvas.getContext('2d');
+            var ctx = canvas.getContext('2d',{ alpha: false });
             setCanvasDimensions(canvas, viewport.width, viewport.height);
 
             renderContext = {
