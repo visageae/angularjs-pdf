@@ -83,7 +83,7 @@
 
             if (pageFit) {
               viewport = page.getViewport(1);
-              var clientRect = element[0].getBoundingClientRect();
+              var clientRect = container.getBoundingClientRect();
               pageWidthScale = clientRect.width / viewport.width;
               scale = pageWidthScale;
             }
